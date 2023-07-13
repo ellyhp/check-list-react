@@ -36,3 +36,141 @@
     transform: rotate(360deg);
   }
 }
+
+.page{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #6b70d1, #6d7bd6, #7186db, #7691df, #7c9be3, #6e9fe1, #62a3de, #59a6d9, #3ba3ca, #269fb7, #259aa2, #32948d);  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+  height: auto;
+  padding: 2rem;
+  box-shadow: 0 0 4px white;
+  background-color: #ffffff3e;
+}
+
+.content h1{
+  color: whitesmoke;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.inputContent{
+  border-radius: 1rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: rgba(245, 245, 245, 0.698);
+  color: #6b70d1;
+  box-shadow: 0 0 10px rgba(245, 245, 245, 0.684);
+  font-size: 1.5rem;
+  width: 100%;margin-bottom: 3rem;
+}
+
+input:focus, select:focus, select, input.form-control:focus {
+
+  outline:none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+
+}
+
+
+.btn:hover{
+  background-color: #ffffff44;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  padding: 0.5rem 1.1rem;
+}
+
+
+.btn:hover{
+  transition: padding 0.2s linear 0.2s;
+}
+
+.text-white{
+  color: #6b70d1;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.btn{
+  padding: 0.4rem 1rem;
+  background-color: white;
+  color: #6b70d1;
+  font-size: 2rem;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border: 0;
+  border-radius: 100%;
+
+}
+
+.btn-content{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+
+.list-content{
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 3rem;
+  align-items: center;border-radius: 10px;
+}
+
+.ul-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;padding-right: 2rem;
+}
+
+.icon{
+  position: relative;
+  bottom: 2.2rem;
+  font-size: 3rem;
+  color: #6b70d1;
+}
+
+.icon-2{
+  position: relative;
+  bottom: 1rem;
+  right: 1.2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a86bd1;
+}
+
+.icon-2,.icon:hover{
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+.other-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
