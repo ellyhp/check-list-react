@@ -75,6 +75,8 @@
   width: 100%;margin-bottom: 3rem;
 }
 
+
+
 input:focus, select:focus, select, input.form-control:focus {
 
   outline:none !important;
@@ -146,10 +148,15 @@ input:focus, select:focus, select, input.form-control:focus {
 }
 
 .icon{
-  position: relative;
-  bottom: 2.2rem;
-  font-size: 3rem;
+  padding-left: 1rem;
+  font-size: 2.5rem;
   color: #6b70d1;
+}
+
+
+
+.icon:hover{
+  transition: font-size 0.1s linear 0.1s;
 }
 
 .icon-2{
@@ -160,6 +167,17 @@ input:focus, select:focus, select, input.form-control:focus {
   font-weight: bold;
   color: #a86bd1;
 }
+
+.icon-2:hover{
+  transition: font-size 0.1s linear 0.1s;
+}
+
+.icon-2:hover{
+  color: rgb(162, 18, 18);
+  font-size: 2.1rem;
+}
+
+
 
 .icon-2,.icon:hover{
   cursor: pointer;
@@ -173,4 +191,24 @@ ul{
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item-completed{
+  text-decoration: line-through;
+}
+
+.item-completed-none{
+  text-decoration: none;
+}
+
+.item-complete-icon{
+  color: #8ce750;
+}
+
+.item-complete-icon-2{
+  color: rgb(162, 18, 18);
 }

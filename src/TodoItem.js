@@ -8,14 +8,20 @@ import { faX } from '@fortawesome/free-solid-svg-icons'
     return (
       <div className='other-content'>
         <div className='list-content'>
-          <FontAwesomeIcon className='icon' icon={faCheck} />
+       
+        <span>
+          <FontAwesomeIcon className=
+          {`icon ${props.completed && "item-complete-icon"}`}
+          onClick={props.onComplete}
+           icon={faCheck} />
+          </span>
           <li className="text-white">
-            {/* <span>V</span>  */}
-            <p>{props.text}</p>
-            {/* <span>X</span> */}
+            <p className={` ${props.completed && "item-completed"}`}>{props.text}</p>
           </li>
         </div>
-          <FontAwesomeIcon className='icon-2' icon={faX} />
+          <FontAwesomeIcon className='icon-2' icon={faX}    
+          onClick={props.onDelete}
+           />
       </div>
     );
   }
